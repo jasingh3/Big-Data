@@ -1,0 +1,20 @@
+Input
+Download the Complete Works of William Shakespeare from Project Gutenberg at
+http://www.gutenberg.org/cache/epub/100/pg100.txt or download the pg100.txt from
+
+
+TODO
+In your implementation, you need to
+1. transform all words to lowercase
+2. ignore all non-alphabetic characters (except whitespace)
+3. count nothing if there’s only one alphabetic character in a word (e.g. A2)
+
+Output must be in the following format
+a<\tab>count of the 2 nd letters “a” (e.g. bank)
+b<\tab>count of the 2 nd letters “b” (e.g. ****abstract, a--b--c)
+...
+Example output:
+a
+666
+b
+233
